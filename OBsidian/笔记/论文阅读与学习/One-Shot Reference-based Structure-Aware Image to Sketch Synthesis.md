@@ -20,7 +20,7 @@
 
 关于关键方法的讲解：
 
-**Adloss**
+3.2 **Adloss**
 
 fig 2：
 （a）![image.png](https://gitee.com/Slexy/picture/raw/master/20251109232309445.png)
@@ -34,3 +34,47 @@ $$
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251110004408497.png)
 传统的只将风格信息注入到残差分支中，就是红色箭头的部分，但是 ad 的优势是他不注入任何东西，他计算了一个损失值 $\mathcal{L}_{AD}$ 这个损失可以通过反向传播来更新整个模型，他的梯度可以同时流过残差分支和恒等链接的分支，他不是简单的添加风格，而是让生成的图片本体发生改变，使其的 $Q, K, V$ 特征分布逐渐学习并演变成与风格源的 $K_s, V_s$ 相匹配。
 
+下面的 fig 4 是论文中一个非常重要的一个实验：
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251110155340061.png)
+
+他证明了 ad 损失在没有任何的内容指导的情况下，仅靠自身优化的强大能力，
+他展示了两大特性：
+1. 风格对齐，从上面的儿童手绘图中可以看出，他可以非常精确的蒸馏出并复现参考图像的纹理和风格
+2. 空间自适应：他的损失函数不是在简单的复制原图，而是真正的学会了风格（因为在这个实验的过程中他是从多个不同的随机噪声开始，以参考图为目标）这里没有使用任何的内容损失和文本提示，这是一种无条件的风格生成
+
+
+
+
+
+**3.3 Content-preserving Optimization**
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251110161029457.png)
+
+这个就是所谓的内容损失函数 $\mathcal{L}_{content}$
+$$
+\mathcal{L}_{content} = ∥Q −Qc∥1.
+$$
+
+他定义了内容损失为我们正在生成的图像的 Q 向量和内容参考图（结构参考图）的 Qc 向量之间的 L 1 距离，这个损失函数迫使我们生成图像的结构查询和内容参考图的结构查询保持完全一致
+
+最后他定义了一个总损失：
+$$
+\mathcal{L}_{total} = \mathcal{L}_{AD} + \lambda\mathcal{L}_{content}
+$$
+
+其中有一个超参数 $\lambda$，调高 $\lambda$ 内容更重要，同样的结构也更清晰，反过来风格会更重要，图像更抽象（这段需要去看一下 $\lambda$ 是如何设置的（是随机的嘛？还是多次测试出来的））
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251110163911913.png)
+
+上面就是这个实验的关于 $\lambda$ 设置的一个对比实验，可以比较直观的看出 $\lambda$ 的大小对于内容和风格之间的影响
+
+
+
+
+3.3**Attention Distillation Guided Sampling**
+
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251110172300764.png)
+主要介绍的是如何将这个 ad 损失集成到标注你的扩散采样过程中，来实现 ad 引导采样，
+这张图对应的是公式 6 7 8 9：
+他整个的过程就是 unet 先看着当前的 zt 然后听从文本提示，通过 ddim 算法，得到了 zt-1，但是在这个过程中根据公式 6 7 8 没有办法在当前将所谓的风格推力 $\nabla \mathcal{L}_{AD}$ 添加进去，因为这个方法很难配置在实验中（图 12）：
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251110174531043.png)
