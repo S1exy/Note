@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asc培养计划 1.md",
+                "file": "To Do List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asc培养计划 1"
+              "title": "To Do List"
             }
           }
         ]
@@ -184,9 +184,9 @@
   },
   "active": "dbdf325a6a53de99",
   "lastOpenFiles": [
-    "论文阅读与学习/One-Shot Reference-based Structure-Aware Image to Sketch Synthesis.md",
-    "asc培养计划 1.md",
     "asc培养计划.md",
+    "asc培养计划 1.md",
+    "论文阅读与学习/One-Shot Reference-based Structure-Aware Image to Sketch Synthesis.md",
     "To Do List.md",
     "学习报告/学习汇报.md",
     "未命名.base",
