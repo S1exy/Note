@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -208,13 +207,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9cadb77b29c21fde",
+  "active": "dbdf325a6a53de99",
   "lastOpenFiles": [
-    "一些任务/ad论文的对比实验.md",
+    "asc培养计划.md",
     "To Do List.md",
+    "一些任务/ad论文的对比实验.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "学习报告/学习汇报.md",
-    "asc培养计划.md",
     "未命名",
     "一些任务",
     "asc培养计划 1.md",
