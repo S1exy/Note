@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Do List.md",
+                "file": "《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do List"
+              "title": "《习近平新时代中国特色社会主义思想概论》期末复习题库"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -208,9 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9cadb77b29c21fde",
+  "active": "dbdf325a6a53de99",
   "lastOpenFiles": [
     "asc培养计划.md",
+    "《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
+    "未命名 1",
     "To Do List.md",
     "一些任务/ad论文的对比实验.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
@@ -235,7 +236,6 @@
     "未命名 1.base",
     "未命名 2.base",
     "未命名 5.base",
-    "未命名 4.base",
     "李沐深度学习笔记/3.线性回归神经网络.md",
     "Templates/home.md.md",
     "Trade/未命名.md",
