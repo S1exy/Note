@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OBsidian/笔记/To Do List.md",
-                "mode": "source",
+                "file": "OBsidian/笔记/《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do List"
+              "title": "《习近平新时代中国特色社会主义思想概论》期末复习题库"
             }
           }
         ]
@@ -166,5 +166,8 @@
     }
   },
   "active": "a677296dfe7caab3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "OBsidian/笔记/To Do List.md",
+    "OBsidian/笔记/《习近平新时代中国特色社会主义思想概论》期末复习题库.md"
+  ]
 }
