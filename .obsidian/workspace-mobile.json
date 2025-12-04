@@ -40,7 +40,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Files"
+          "title": "文件列表"
         }
       },
       {
@@ -156,18 +156,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
     }
   },
   "active": "a677296dfe7caab3",
   "lastOpenFiles": [
+    "OBsidian/笔记/学习报告/学习汇报.md",
     "OBsidian/笔记/《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
-    "OBsidian/笔记/To Do List.md"
+    "tggg.canvas",
+    "OBsidian/笔记/To Do List.md",
+    "OBsidian/笔记/asc培养计划.md"
   ]
 }
