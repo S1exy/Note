@@ -1,23 +1,21 @@
 
 原图：
 
-
-
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129180204516.png)
 
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129180217980.png)
 
 
-
+## 实验1
+[xugao97/AttentionDistillation: [CVPR 2025] Attention Distillation: A Unified Approach to Visual Characteristics Transfer](https://github.com/xugao97/AttentionDistillation)
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129173154841.png)
 上面是第一次试验采用的参数网格进行的实验
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129173241885.png)
 
-根据出来的结果我修改了一下网格参数为：
+根据出来的结果修改了网格参数为：
 
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129180114262.png)
 
-看起来好一些？
 
 ![image.png](https://gitee.com/Slexy/picture/raw/master/20251129180055560.png)
 
@@ -37,8 +35,7 @@
 4. 很显然的从图像中的对比我们可以发现越往右下肯定是图像的结果会更好
 5. 不过不论是哪一个参数即使是左上角最差的，我们也可以看到大致的结构轮廓是有保存下来的
 
-
-接下来我会跑一个另外的实验：
+## 实验 2
 
 
 [Neural Style Transfer - a Hugging Face Space by georgescutelnicu](https://huggingface.co/spaces/georgescutelnicu/neural-style-transfer)
@@ -57,11 +54,13 @@
 
 [InstantStyle - a Hugging Face Space by InstantX](https://huggingface.co/spaces/InstantX/InstantStyle)
 
-scale = 0.5
+scale =1
 
-![image.png](https://gitee.com/Slexy/picture/raw/master/20251130232536580.png)
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251212113432895.png)
 
-scale = 0.3
 
-![image.png](https://gitee.com/Slexy/picture/raw/master/20251130232601067.png)
+scale = 0.7
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20251212113559208.png)
+
 这个似乎不太行.....
