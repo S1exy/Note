@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "ds"
             }
+          },
+          {
+            "id": "9c38dfb205de3e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ds1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ds1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,10 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85e2c1142d2531e4",
+  "active": "9c38dfb205de3e91",
   "lastOpenFiles": [
-    "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "ds.md",
+    "ds1.md",
+    "未命名",
+    "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "一些任务/风格迁移的对比实验.md",
     "To Do List.md",
     "《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
@@ -204,7 +221,6 @@
     "asc培养计划.md",
     "未命名 1",
     "学习报告/学习汇报.md",
-    "未命名",
     "一些任务",
     "asc培养计划 1.md",
     "论文阅读与学习",
@@ -237,7 +253,6 @@
     "欢迎.md",
     "李沐深度学习笔记/李沐深度学习笔记/李沐深度学习笔记.md",
     "李沐深度学习/线性神经网络.md",
-    "日记？/2025-08-04.md",
     "未命名.canvas"
   ]
 }
