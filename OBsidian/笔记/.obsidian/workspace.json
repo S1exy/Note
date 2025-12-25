@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -223,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9cadb77b29c21fde",
+  "active": "38b405053cc11198",
   "lastOpenFiles": [
     "To Do List.md",
     "算法复习.md",
