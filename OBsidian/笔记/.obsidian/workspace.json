@@ -11,28 +11,20 @@
             "id": "8280d33cb0a6331a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ds.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ds"
+              "title": "新标签页"
             }
           },
           {
             "id": "9c38dfb205de3e91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ds.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ds"
+              "title": "新标签页"
             }
           },
           {
@@ -107,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
