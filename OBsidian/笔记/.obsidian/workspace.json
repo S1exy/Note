@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -163,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李沐深度学习笔记/线性回归神经网络.md",
+                "file": "算法复习.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "线性回归神经网络 的大纲"
+              "title": "算法复习 的大纲"
             }
           },
           {
@@ -197,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
