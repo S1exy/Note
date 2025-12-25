@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习.md",
+                "file": "To Do List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "算法复习"
+              "title": "To Do List"
             }
           }
         ],
@@ -224,15 +224,15 @@
   },
   "active": "38b405053cc11198",
   "lastOpenFiles": [
-    "ds.md",
     "算法复习.md",
+    "未命名.base",
+    "ds.md",
     "ds1.md",
     "未命名",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "一些任务/风格迁移的对比实验.md",
     "To Do List.md",
     "《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
-    "未命名.base",
     "asc培养计划.md",
     "未命名 1",
     "学习报告/学习汇报.md",
@@ -266,7 +266,6 @@
     "image.png",
     "image 6.png",
     "欢迎.md",
-    "李沐深度学习笔记/李沐深度学习笔记/李沐深度学习笔记.md",
     "未命名.canvas"
   ]
 }
