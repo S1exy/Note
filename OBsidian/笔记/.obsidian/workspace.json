@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文阅读与学习/医学图像迁移开题报告.md",
+                "file": "To Do List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "医学图像迁移开题报告"
+              "title": "To Do List"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -176,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +196,9 @@
   },
   "active": "38b405053cc11198",
   "lastOpenFiles": [
+    "论文阅读与学习/医学图像迁移开题报告.md",
     "To Do List.md",
     "asc培养计划.md",
-    "论文阅读与学习/医学图像迁移开题报告.md",
     "学习报告/学习汇报.md",
     "ds1.md",
     "算法复习.md",
