@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -236,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18bdfe9af3ac0d5c",
+  "active": "9cadb77b29c21fde",
   "lastOpenFiles": [
     "asc培养计划.md",
     "未命名.md",
