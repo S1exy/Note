@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -194,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85e2c1142d2531e4",
+  "active": "18bdfe9af3ac0d5c",
   "lastOpenFiles": [
     "26美赛建模/18.51蔡明润.md",
     "26美赛建模/14.42 - 王智洋.md",
