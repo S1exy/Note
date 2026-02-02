@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -195,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18bdfe9af3ac0d5c",
+  "active": "85e2c1142d2531e4",
   "lastOpenFiles": [
-    "26美赛建模/14.22-蔡明润 1.md",
-    "26美赛建模/14.22-蔡明润.md",
     "26美赛建模/18.51蔡明润.md",
     "26美赛建模/14.42 - 王智洋.md",
+    "26美赛建模/14.22-蔡明润.md",
+    "26美赛建模/14.22-蔡明润 1.md",
     "26美赛建模/MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
     "26美赛建模/未命名.md",
     "26美赛建模/3fb00c3d56fe91b58d09f39a9e1f3acd.png",
