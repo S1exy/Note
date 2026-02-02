@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +197,9 @@
   },
   "active": "18bdfe9af3ac0d5c",
   "lastOpenFiles": [
-    "未命名.md",
+    "Pasted image 20260202095013.png",
     "111 1.md",
+    "未命名.md",
     "111.md",
     "asc培养计划.md",
     "心情~.md",
@@ -231,7 +233,6 @@
     "未命名 2.base",
     "未命名 5.base",
     "李沐深度学习笔记/3.线性回归神经网络.md",
-    "Templates/home.md.md",
     "image 2.png",
     "image 5.png",
     "image 4.png",
