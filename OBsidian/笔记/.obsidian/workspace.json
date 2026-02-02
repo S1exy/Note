@@ -11,12 +11,14 @@
             "id": "18bdfe9af3ac0d5c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260202140027.png"
+                "file": "14.22-蔡明润.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260202140027"
+              "icon": "lucide-file",
+              "title": "14.22-蔡明润"
             }
           },
           {
@@ -88,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -207,8 +208,8 @@
   },
   "active": "18bdfe9af3ac0d5c",
   "lastOpenFiles": [
-    "Pasted image 20260202140419.png",
     "Pasted image 20260202140027.png",
+    "Pasted image 20260202140419.png",
     "Pasted image 20260202102517.png",
     "14.22-蔡明润.md",
     "3fb00c3d56fe91b58d09f39a9e1f3acd.png",
