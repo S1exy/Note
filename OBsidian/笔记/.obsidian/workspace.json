@@ -11,14 +11,24 @@
             "id": "18bdfe9af3ac0d5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "14.22-蔡明润.md",
-                "mode": "preview",
-                "source": false
+                "file": "Pasted image 20260202140027.png"
               },
-              "icon": "lucide-file",
-              "title": "14.22-蔡明润"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260202140027"
+            }
+          },
+          {
+            "id": "ae9f2300af966a32",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260202140027.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260202140027"
             }
           }
         ]
@@ -197,12 +207,12 @@
   },
   "active": "18bdfe9af3ac0d5c",
   "lastOpenFiles": [
-    "3fb00c3d56fe91b58d09f39a9e1f3acd.png",
     "Pasted image 20260202140419.png",
     "Pasted image 20260202140027.png",
-    "MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
-    "14.22-蔡明润.md",
     "Pasted image 20260202102517.png",
+    "14.22-蔡明润.md",
+    "3fb00c3d56fe91b58d09f39a9e1f3acd.png",
+    "MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
     "111 1.md",
     "Pasted image 20260202095013.png",
     "未命名.md",
@@ -242,7 +252,6 @@
     "image 4.png",
     "image 3.png",
     "image 1.png",
-    "image.png",
     "未命名.canvas"
   ]
 }
