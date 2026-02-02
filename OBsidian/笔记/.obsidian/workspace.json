@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14.22-蔡明润.md",
+                "file": "26美赛建模/14.42 - 王智洋.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14.22-蔡明润"
-            }
-          },
-          {
-            "id": "ae9f2300af966a32",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260202140027.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260202140027"
+              "title": "14.42 - 王智洋"
             }
           }
         ]
@@ -206,19 +194,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18bdfe9af3ac0d5c",
+  "active": "85e2c1142d2531e4",
   "lastOpenFiles": [
+    "26美赛建模/14.22-蔡明润.md",
+    "26美赛建模/14.42 - 王智洋.md",
+    "26美赛建模/MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
+    "26美赛建模/未命名.md",
+    "26美赛建模/3fb00c3d56fe91b58d09f39a9e1f3acd.png",
+    "26美赛建模/Pasted image 20260202102517.png",
+    "26美赛建模/111.md",
+    "26美赛建模/111 1.md",
+    "Pasted image 20260202102517.png",
+    "26美赛建模/Pasted image 20260202140419.png",
+    "26美赛建模/Pasted image 20260202140027.png",
+    "MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
+    "asc培养计划.md",
     "Pasted image 20260202140027.png",
     "Pasted image 20260202140419.png",
-    "Pasted image 20260202102517.png",
     "14.22-蔡明润.md",
+    "26美赛建模",
     "3fb00c3d56fe91b58d09f39a9e1f3acd.png",
-    "MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
     "111 1.md",
     "Pasted image 20260202095013.png",
     "未命名.md",
     "111.md",
-    "asc培养计划.md",
     "心情~.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "论文阅读与学习/医学图像迁移开题报告.md",
@@ -227,7 +226,6 @@
     "算法复习.md",
     "未命名.base",
     "ds.md",
-    "未命名",
     "一些任务/风格迁移的对比实验.md",
     "《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
     "未命名 1",
@@ -239,20 +237,11 @@
     "超算团队考核",
     "李沐深度学习笔记/8.循环神经网络.md",
     "李沐深度学习笔记/9.现代循环神经网络.md",
-    "李沐深度学习笔记/13.计算机视觉.md",
-    "李沐深度学习笔记/11.优化算法.md",
-    "李沐深度学习笔记/7.现代神经网络.md",
-    "李沐深度学习笔记/6.卷积神经网络.md",
-    "李沐深度学习笔记/4.多层感知机.md",
     "数学建模国赛",
     "未命名 1.base",
     "未命名 2.base",
     "未命名 5.base",
     "image 2.png",
-    "image 5.png",
-    "image 4.png",
-    "image 3.png",
-    "image 1.png",
     "未命名.canvas"
   ]
 }
