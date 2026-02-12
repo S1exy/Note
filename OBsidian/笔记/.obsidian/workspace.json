@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Attention Distillation：A Unified Approach to Visual Characteristics Transfer"
             }
+          },
+          {
+            "id": "3505759118b582c5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e98bca5e1f6b725",
+  "active": "3505759118b582c5",
   "lastOpenFiles": [
     "26服创国赛/服创 a18.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
