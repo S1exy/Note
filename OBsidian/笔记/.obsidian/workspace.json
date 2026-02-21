@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf9194b585cdacd7",
+        "id": "df7cae14d436dfbb",
         "type": "tabs",
         "children": [
           {
-            "id": "3505759118b582c5",
+            "id": "7faa6df6f986b3a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,9 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3505759118b582c5",
+  "active": "7faa6df6f986b3a1",
   "lastOpenFiles": [
     "服创.pdf",
+    "().md",
     "26服创国赛/服创 a18.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "未命名 1",
@@ -238,10 +239,8 @@
     "一些任务",
     "asc培养计划 1.md",
     "论文阅读与学习",
-    "超算团队考核/超算团队ai第一阶段任务.md",
     "超算团队考核",
     "数学建模国赛",
-    "未命名 1.base",
     "image 2.png",
     "未命名.canvas"
   ]
