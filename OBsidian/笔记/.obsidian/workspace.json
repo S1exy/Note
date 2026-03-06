@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "().md",
+                "file": "1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "()"
+              "title": "1"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -194,11 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85e2c1142d2531e4",
+  "active": "013292403c4ee907",
   "lastOpenFiles": [
+    "().md",
+    "1.md",
     "26服创国赛/服创 a18.md",
     "服创.pdf",
-    "().md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
     "未命名 1",
     "未命名",
