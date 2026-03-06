@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "服创 a18"
             }
+          },
+          {
+            "id": "88529a02bc92cc52",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -195,7 +207,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7faa6df6f986b3a1",
+  "active": "88529a02bc92cc52",
   "lastOpenFiles": [
     "服创.pdf",
     "().md",
