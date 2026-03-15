@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习.md",
+                "file": "心情~.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "算法复习"
+              "title": "心情~"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -197,7 +196,10 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "服创.pdf",
     "2.md",
+    "().md",
+    "算法复习.md",
     "论文阅读与学习/拟开题报告.md",
     "未命名 2.base",
     "未命名 1.base",
@@ -206,8 +208,6 @@
     "论文阅读与学习/医学图像迁移开题调研.md",
     "心情~.md",
     "26服创国赛/服创 a18.md",
-    "().md",
-    "服创.pdf",
     "未命名 1",
     "未命名",
     "26服创国赛",
@@ -236,7 +236,6 @@
     "111.md",
     "学习报告/学习汇报.md",
     "ds1.md",
-    "算法复习.md",
     "ds.md",
     "一些任务/风格迁移的对比实验.md",
     "一些任务",
