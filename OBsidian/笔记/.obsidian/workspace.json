@@ -70,7 +70,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：✋  Action Required (笔记)"
+                  "title": "终端：Windows PowerShell"
                 }
               }
             ]
@@ -247,7 +247,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "85e2c1142d2531e4",
+  "active": "854fa23d4fa8e57a",
   "lastOpenFiles": [
     "04_项目竞赛/数学建模国赛/思路1.md",
     "04_项目竞赛/学习报告/学习汇报.md",
