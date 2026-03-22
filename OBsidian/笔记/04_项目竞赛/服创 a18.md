@@ -1,0 +1,205 @@
+
+# 1
+目前正在跑 yolov8 的基线模型：
+进度如下：
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260213022629759.png)
+时长有点久了
+然后我调研了一下最近的文献（或者说和 ai 去对话了一下）
+目前总结出来的模型大概是如下，可能还需要修改，但是我想先试着先去做一下，目前基本上都是 sota 的模型或者方案，部分不好做的东西可以再去调整一下：
+
+1. **数据增强和处理方案**：
+   目前想使用的方案是较为简单的随机copy-paste 或者密度copy-paste 的方案，进行一些数据增强和处理完善，处理小目标的问题
+2. **主干模型**：
+   经过和 ai 的沟通确实 yolov 10 可能确实会比 yolov 8 在目标识别上面会做的更好特别是对于小目标识别上面，我看了一下文献综述的话，yolov 10 被人诟病的地方主要是集中于他对于小目标可能会直接把他忽略掉（变成背景去了）不过我觉得可能影响不大，还是得先去做实际的实验我觉得会更好一些，不过暂且先使用咯
+3. 颈部模型：
+   这个分为两层，第一层的话，如果目前还有精力的话，可以去尝试一下 BIFPN（结构蛮复杂的）如果不太行的话，可以先用 yolov 10 原生的 PANet
+   第二层的话我觉得可以使用SPD-Conv，用于解决小目标下采样的采样信息丢失问题
+4. 融合中心骨干模型：
+   我去看了一下曼巴模型（目前的 sota），觉得这个思路其实还是不错的，但是这个部分也算是整个里面最难的，因为环境配置非常难，不管是在 win 还是在 linux 上面，但是关于实现的话，可以去参考 ai 的这段话，我觉得这个加进去还是对于整体的项目实现有非常非常好的帮助的
+   ![image.png](https://gitee.com/Slexy/picture/raw/master/20260213023938943.png)
+   **但是这个对于配置环境来说，非常非常地狱，可能我需要你的帮助帮我进行配置，因为这个需要非常恶心的 cuda 版本，pytorch 版本和编译器版本，我们可以找个时间出来，我帮你配置服务集群的账号**
+   如果这个没法实现的话，我们可以去降级为简单一点的 cbam 或者 sc 来进行这个多模态融合，这个我们可以考虑一下
+   
+5. 检测头的话我觉得就对于我们这个数据集的话我觉得砍掉 p5 检测头，然后加上一个 p2 检测头会不会更好，然后还有一个提到的，我们能不能去优化一下检测头之间的权重呢？
+   （这个部分是不是可以去做一个消融实验呢？但是我们有这么多时间去做这么多事情嘛？这个地方我打个问号）
+
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260213024834464.png)
+
+
+
+
+
+
+## 2
+
+现在进行到了第二步，我目前想就着这个先做下去，然后目前的话，我应该大概可能或许已经部署好了 mamba 模型，现在正在进行代码和数据集的调整阶段）
+
+然后下面是后期需要注意的几个点：
+训练混合模型的时候，需要考虑数据集的同位置但是不同标注的问题，即有可能只有一个数据集有标, 这个时候需要取并集，就是只要白天黑夜，只要有一个传感器能看到，那么就说明他是车（这个可能后续模型调整的时候，需要去和 ai 进行强调）
+
+第二个事情是这个环境是：（这个是启动环境的模版）
+~~~bash
+# 1. 初始化 Conda (必须用绝对路径)
+source /mnt/csip-099/caimingrun/miniconda3/bin/activate
+
+# 2. 激活你的环境
+conda activate /mnt/csip-099/caimingrun/envs/yolo_mamba
+
+# 3. 可以在这里加一句 verify 确保环境加载对了 (可选)
+python -c "import mamba_ssm; print('环境加载成功')"
+
+# 4. 进入你的代码目录 (根据你实际代码位置修改)
+# cd /mnt/csip-099/caimingrun/你的代码文件夹
+
+# 5. 运行训练
+# python train.py ...
+~~~
+
+## 2026 .2.14
+目前这边是已经在服务器上面配置好了 yolo-mamba 的环境，然后处理好了数据集进行了上传服务器：
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260214191908493.png)
+
+目前正在跑的结果：
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260214191428992.png)
+目前大概可以到 15  epoch / h
+核心指标上![image.png](https://gitee.com/Slexy/picture/raw/master/20260214191527703.png)
+这个是只使用了 rgb 单通道得到的数据，目前模型完成度大概是完成了主要的 baseline 搭建部分，后续考虑一下需不需要做消融实验，yolov 10 作为基准模型再来跑一遍，但是目前想着先出效果
+
+
+!! 现在又有几个不太好的问题，即需要重新处理数据集，数据集的标注和图片的位置目前有个问题就是图片的存在白边，会影响训练效率和训练的质量，但是坐标集同时也需要做变换，不过目前因为在跑模型这个东西可能还需要一定时间来处理这个数据集
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260214191843280.png)
+
+
+## 2026.2.15
+第一个大的完整的 baseline 跑完了
+![11188c455083d24797cf539764583ecd.png](https://gitee.com/Slexy/picture/raw/master/20260214220426616.png)
+还可以，能在随机参数的 base 上面训练出 61~的准确率已经是神中神了，但是数据集要重新做（悲）
+
+数据集到时候再说吧
+现在重新做了 mamba 的双流融合现在送上服务器去跑希望能有一个好的效果，好的晚安（）
+
+我糙不太对，双流融合的 dataloader 似乎需要重写一下，因为是六通道但是 yolo 的 base 模型是 3 通道的，需要去优化一下，不过过年了先休息两天......
+
+
+
+## 2026.2.16
+
+除夕啦，但是无聊改改模型，现在目前集群上没有显卡，我现在只能在数据集和模型架构上去下手，然后呢
+现在目前有几个新的方案
+目前整体来说，模型的数据流动是：
+
+
+---
+
+IR--------
+
+               yolov10（SPD-conv + mamba）---- 检测头（P2）------- 结果
+
+RGB -----
+
+---
+
+数据集的部分现在进行修改，后期可能加入的话尝试使用 `Mosaic (YOLO自带) + Mixup` 的方案
+
+然后呢还需要重新设计损失函数，使用**Wise-IoU (WIoU)** 或 **SIoU**来替换原本的损失函数？
+
+这个可以考虑一下
+最后嗯消融实验：我打算：
+1. rgb + yolov10
+2. ir + yolov 10
+3. rgb + ir + yolov 10（mamba  + spdconv）？
+4. 然后加入 p 2 验证？
+5. 然后得到结果后再与增强过后的数据集进行对比？
+
+
+下面是 ai 给出的方案，我再看一下
+
+|**实验编号**|**模态 (Input)**|**融合方式 (Fusion)**|**小目标优化 (SPD+P2)**|**数据增强 (Copy-Paste)**|**预期结论 (Hypothesis)**|
+|---|---|---|---|---|---|
+|**Exp 1**|RGB|-|-|-|**Baseline (基准)**：证明仅靠可见光是不够的（例如夜间漏检）。|
+|**Exp 2**|IR|-|-|-|**Baseline (辅助)**：证明仅靠红外是不够的（缺乏纹理细节）。|
+|**Exp 3**|RGB + IR|**Concat/Add** (简单拼接)|-|-|**多模态有效性**：证明“双流”比“单流”好，哪怕用最笨的融合方法。|
+|**Exp 4**|RGB + IR|**Mamba Fusion**|-|-|**核心创新点**：证明 Mamba 融合比简单的 Concat 拼接更有效（捕捉全局上下文）。|
+|**Exp 5**|RGB + IR|Mamba Fusion|**√ (SPD + P2)**|-|**小目标专项**：证明针对赛题“极小目标”的改进（SPD/P2）是关键。|
+|**Exp 6**|RGB + IR|Mamba Fusion|**√ (SPD + P2)**|**√**|**最终模型 (SOTA)**：证明数据增强能进一步提升鲁棒性。|
+
+
+
+目前修复了一下检测的逻辑，现在可以支撑斜框检测，然后替换成了 yolov 8 -oob 的模型
+等会上传数据集
+
+
+
+## 2026.2.18
+
+~~~
+# 彻底删除所有缓存文件
+find /mnt/csip-099/caimingrun/A18_Project/datasets/dataset_obb -name "*.cache" -delete
+~~~
+
+
+~~~
+yolo task=obb mode=train \
+    model=ultralytics/cfg/models/11/yolo11_drone.yaml \
+    data=/mnt/csip-099/caimingrun/A18_Project/datasets/drone_4ch.yaml \
+    epochs=100 \
+    batch=16 \
+    imgsz=640 \
+    device=0 \
+    project=Drone_Mamba_Project \
+    name=SPD_Mamba_P2_Fusion \
+    exist_ok=True \
+    hsv_h=0.0 hsv_s=0.0 hsv_v=0.0 \
+    mosaic=0.0 \
+    amp=False
+~~~
+
+
+
+## 2026 .2.19
+
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260219172000689.png)
+
+修改了一下模型架构，目前是这个样子，正在跑实验：
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260219172935495.png)
+
+如果结果可以的话，后续还有几个改动：
+1. rgb 和 ir 图像从早期融合切换到中期融合，在这里再加入一个注意力模块来计算 rgb 和 ir 的光照，然后创建一个掩码来辅助分配动态权重
+2. 去除 p 5  加上 p 2 分支（我怎么记得我前面已经修改过了，是不是 ai 绘图出 bug 了）
+3. 更改损失函数为 nwdloss，提升微小目标的训练稳定性和收敛速度
+
+不太对频繁的炸显存直接让模型崩溃了
+![2c49d4371f5c51eabfd36563320dd3be.png](https://gitee.com/Slexy/picture/raw/master/20260219234148820.png)
+没事没事刚好顺路把剩下的东西一股脑全部塞进去
+
+
+塞进去了目前开始训练
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260220004141052.png)
+## 2026.2.21
+训练结果如下 
+map50:90效果不错但是 map 50 效果有点不近如人意
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260221115305439.png)
+
+目前想着，重新改回 obb 再跑一次，但是模型证明了目前的架构是 ok 的
+我现在重新绘制一下架构图
+![](https://gitee.com/Slexy/picture/raw/master/20260221120505484.png)
+
+`yolo11-iaga-obb.yaml`
+
+ok 目前替换成了 obb 来试一试
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260221153712244.png)
+30 个小时之后见
+睡觉！
+
+
+看起来结果不错
+后续可能需要改的东西：
+IAGA 从“全局单量 $\alpha$”升级为“空间二维矩阵 $\mathbf{W}_{\text{ill}}$”
+（也就是说再叠加一个权重矩阵，这边可以用一个热力图来展示）
+![image.png](https://gitee.com/Slexy/picture/raw/master/20260221183425651.png)
+
+
+
+
