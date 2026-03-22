@@ -10,7 +10,7 @@
           {
             "id": "9496285b0fbb5f4f",
             "type": "tabs",
-            "dimension": 55.6701030927835,
+            "dimension": 26.15979381443299,
             "children": [
               {
                 "id": "389f486de2d99954",
@@ -31,7 +31,7 @@
           {
             "id": "7c234b608bf38332",
             "type": "tabs",
-            "dimension": 44.3298969072165,
+            "dimension": 73.84020618556701,
             "children": [
               {
                 "id": "854fa23d4fa8e57a",
@@ -70,7 +70,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：C:\\Windows\\System32\\conhost.exe"
+                  "title": "终端：✦  Working… (笔记)"
                 }
               }
             ]
