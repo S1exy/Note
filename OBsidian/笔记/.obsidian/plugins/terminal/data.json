@@ -9,7 +9,7 @@
   "interceptLogging": true,
   "language": "",
   "macOSOptionKeyPassthrough": true,
-  "newInstanceBehavior": "newRightSplit",
+  "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
   "pinNewInstance": true,
@@ -140,7 +140,7 @@
     },
     "win32IntegratedDefault": {
       "args": [],
-      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "followTheme": true,
       "name": "",
       "platforms": {
