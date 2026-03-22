@@ -184,7 +184,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记架构分析与整理计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "笔记架构分析与整理计划 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -203,12 +202,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记架构分析与整理计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "笔记架构分析与整理计划 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -217,13 +215,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记架构分析与整理计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "笔记架构分析与整理计划 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -250,54 +247,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "389f486de2d99954",
+  "active": "854fa23d4fa8e57a",
   "lastOpenFiles": [
+    "00_待处理/2.md",
+    "00_待处理/().md",
+    "00_待处理/未命名.md",
+    "00_待处理/未命名.base",
+    "00_待处理/未命名 2.base",
+    "00_待处理/未命名 1.base",
+    "05_个人生活/心情~.md",
+    "04_项目竞赛/服创.pdf",
+    "04_项目竞赛/学习报告/学习汇报.md",
+    "04_项目竞赛/学习报告",
+    "04_项目竞赛/数学建模国赛/思路1.md",
+    "04_项目竞赛/数学建模国赛",
+    "04_项目竞赛/26美赛建模/Pasted image 20260202140027.png",
+    "04_项目竞赛/26美赛建模/Pasted image 20260202140419.png",
+    "04_项目竞赛/26美赛建模/14.42 - 王智洋.md",
+    "04_项目竞赛/26美赛建模/Pasted image 20260202102517.png",
+    "04_项目竞赛/26美赛建模/3fb00c3d56fe91b58d09f39a9e1f3acd.png",
+    "04_项目竞赛/26美赛建模/18.51蔡明润.md",
+    "04_项目竞赛/26美赛建模/14.22-蔡明润.md",
+    "04_项目竞赛/26美赛建模",
+    "04_项目竞赛/26服创国赛/服创 a18.md",
+    "04_项目竞赛/26服创国赛",
+    "01_课程学习/asc培养计划.md",
+    "01_课程学习/算法复习.md",
+    "01_课程学习/《习近平新时代中国特色社会主义思想概论》期末复习题库.md",
+    "05_个人生活",
+    "04_项目竞赛",
     "笔记架构分析与整理计划.md",
     "asc培养计划.md",
     "未命名.md",
     "心情~.md",
     "论文阅读与学习/Attention Distillation：A Unified Approach to Visual Characteristics Transfer.md",
-    "服创.pdf",
     "2.md",
     "().md",
     "算法复习.md",
     "论文阅读与学习/拟开题报告.md",
-    "未命名 2.base",
-    "未命名 1.base",
-    "未命名.base",
     "论文阅读与学习/医学图像迁移开题调研.md",
     "26服创国赛/服创 a18.md",
-    "未命名 1",
-    "未命名",
-    "26服创国赛",
     "26美赛建模/14.22-蔡明润.md",
     "26美赛建模/14.42 - 王智洋.md",
-    "26美赛建模/18.51蔡明润.md",
-    "26美赛建模/14.22-蔡明润 1.md",
-    "26美赛建模/MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
-    "26美赛建模/未命名.md",
     "26美赛建模/3fb00c3d56fe91b58d09f39a9e1f3acd.png",
     "26美赛建模/Pasted image 20260202102517.png",
-    "26美赛建模/111.md",
-    "26美赛建模/111 1.md",
     "Pasted image 20260202102517.png",
     "26美赛建模/Pasted image 20260202140419.png",
     "26美赛建模/Pasted image 20260202140027.png",
-    "MinerU_markdown_蔡汉霖-2023美赛word原稿_2018140637468512256.md",
     "Pasted image 20260202140027.png",
-    "Pasted image 20260202140419.png",
-    "14.22-蔡明润.md",
-    "26美赛建模",
-    "3fb00c3d56fe91b58d09f39a9e1f3acd.png",
-    "111 1.md",
-    "Pasted image 20260202095013.png",
-    "111.md",
-    "学习报告/学习汇报.md",
-    "ds1.md",
-    "ds.md",
-    "一些任务",
-    "论文阅读与学习",
-    "image 2.png",
     "未命名.canvas"
   ]
 }
