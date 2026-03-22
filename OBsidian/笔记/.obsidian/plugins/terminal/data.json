@@ -9,7 +9,7 @@
   "interceptLogging": true,
   "language": "",
   "macOSOptionKeyPassthrough": true,
-  "newInstanceBehavior": "newHorizontalSplit",
+  "newInstanceBehavior": "newRightSplit",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
   "pinNewInstance": true,
@@ -161,7 +161,7 @@
       "useWin32Conhost": true
     }
   },
-  "defaultProfile": null,
+  "defaultProfile": "win32IntegratedDefault",
   "terminalOptions": {
     "documentOverride": null
   }
