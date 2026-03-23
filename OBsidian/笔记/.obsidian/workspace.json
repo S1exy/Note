@@ -11,14 +11,12 @@
             "id": "389f486de2d99954",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_科研调研/todolist.md",
-                "mode": "source",
-                "source": false
+                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf"
               },
-              "icon": "lucide-file",
-              "title": "todolist"
+              "icon": "lucide-file-text",
+              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer"
             }
           }
         ]
@@ -193,10 +191,10 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "03_科研调研/todolist.md",
     "03_科研调研/文献调研_backup.md",
     "03_科研调研/文献调研.md",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
-    "03_科研调研/todolist.md",
     "03_科研调研/task.md",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
