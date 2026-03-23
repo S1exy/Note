@@ -193,10 +193,12 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "03_科研调研/task.md",
+    "03_科研调研/文献调研_backup.md",
     "03_科研调研/todolist.md",
+    "03_科研调研/文献调研.md",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
-    "03_科研调研/文献调研.md",
     "05_个人生活/心情~.md",
     "02_深度学习/10.注意力机制.md",
     "100_percent_restore.py",
@@ -237,7 +239,6 @@
     "03_科研调研/线性回归神经网络 245f0d9df6f18075a424cb5572014c1c.md",
     "03_科研调研/机器学习-Kaggle.md",
     "03_科研调研/过去的复盘：.md",
-    "03_科研调研/1.numpy库的基本语法及使用：.md",
     "未命名.canvas"
   ]
 }
