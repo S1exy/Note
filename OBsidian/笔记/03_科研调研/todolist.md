@@ -12,9 +12,9 @@
 	- [ ] StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements（cvpr 2025）
 	- [ ] MagicStain: High-Fidelity Pathology Image Virtual Staining via Guided Single-Step Diffusion（iclr 2026）
 
-
-
-
 学长给的一些建议：
 1. 前置模型的问题，还有替换主干模型
 2. 还有加速的问题，现实意义（
+
+1， aaai 复现 （加速 deepcache，前置瓶颈，分割）
+2，coco 复现+论文
