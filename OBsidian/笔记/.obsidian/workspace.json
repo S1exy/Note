@@ -10,7 +10,7 @@
           {
             "id": "9496285b0fbb5f4f",
             "type": "tabs",
-            "dimension": 81.52173913043478,
+            "dimension": 77.50281214848144,
             "children": [
               {
                 "id": "389f486de2d99954",
@@ -46,7 +46,7 @@
           {
             "id": "7c234b608bf38332",
             "type": "tabs",
-            "dimension": 18.478260869565215,
+            "dimension": 22.49718785151856,
             "children": [
               {
                 "id": "854fa23d4fa8e57a",
@@ -262,10 +262,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a606c019f29646f3",
+  "active": "854fa23d4fa8e57a",
   "lastOpenFiles": [
-    "03_科研调研/task.md",
     "03_科研调研/文献调研.md",
+    "03_科研调研/task.md",
     "05_个人生活/心情~.md",
     "02_深度学习/10.注意力机制.md",
     "100_percent_restore.py",
