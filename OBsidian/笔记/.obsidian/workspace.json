@@ -23,14 +23,12 @@
             "id": "f1222c91c06da9a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_科研调研/todolist.md",
-                "mode": "source",
-                "source": false
+                "file": "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf"
               },
-              "icon": "lucide-file",
-              "title": "todolist"
+              "icon": "lucide-file-text",
+              "title": "Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path"
             }
           }
         ],
@@ -160,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_科研调研/todolist.md",
+                "file": "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "todolist 的出链列表"
+              "title": "Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path 的出链列表"
             }
           },
           {
@@ -174,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_科研调研/todolist.md",
+                "file": "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "todolist 的大纲"
+              "title": "Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path 的大纲"
             }
           }
         ],
@@ -208,8 +206,8 @@
   },
   "active": "f1222c91c06da9a9",
   "lastOpenFiles": [
-    "03_科研调研/文献调研.md",
     "03_科研调研/todolist.md",
+    "03_科研调研/文献调研.md",
     "05_个人生活/心情~.md",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/PD-UniST Prompt-Driven Universal Model for.pdf",
