@@ -18,8 +18,23 @@
               "icon": "lucide-file-text",
               "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer"
             }
+          },
+          {
+            "id": "f1222c91c06da9a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03_科研调研/todolist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todolist"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
+                "file": "03_科研调研/todolist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer 的出链列表"
+              "title": "todolist 的出链列表"
             }
           },
           {
@@ -159,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
+                "file": "03_科研调研/todolist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer 的大纲"
+              "title": "todolist 的大纲"
             }
           }
         ],
@@ -191,12 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "389f486de2d99954",
+  "active": "f1222c91c06da9a9",
   "lastOpenFiles": [
+    "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/todolist.md",
     "03_科研调研/task.md",
     "03_科研调研/文献调研.md",
-    "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
     "05_个人生活/心情~.md",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
