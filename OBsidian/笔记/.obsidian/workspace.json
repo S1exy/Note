@@ -11,14 +11,12 @@
             "id": "389f486de2d99954",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_科研调研/todolist.md",
-                "mode": "source",
-                "source": false
+                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf"
               },
-              "icon": "lucide-file",
-              "title": "todolist"
+              "icon": "lucide-file-text",
+              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer"
             }
           }
         ]
@@ -147,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_科研调研/todolist.md",
+                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "todolist 的出链列表"
+              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer 的出链列表"
             }
           },
           {
@@ -161,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_科研调研/todolist.md",
+                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "todolist 的大纲"
+              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer 的大纲"
             }
           }
         ],
@@ -195,8 +193,8 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
-    "03_科研调研/task.md",
     "03_科研调研/todolist.md",
+    "03_科研调研/task.md",
     "03_科研调研/文献调研.md",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
