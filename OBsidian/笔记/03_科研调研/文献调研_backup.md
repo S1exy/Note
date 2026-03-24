@@ -1,8 +1,8 @@
 ## PD-UniST: Prompt-Driven Universal Model for Unpaired H&E-to-IHC Stain Tran（MICCAI 2025）
 
-### 文章链接 ：
-![[PD-UniST Prompt-Driven Universal Model for.pdf]]
-### 主要内容总结：
+文章链接 ：
+[[PD-UniST Prompt-Driven Universal Model for.pdf]]
+主要内容总结：
 PD-UNIST：非配对H&E到IHC染料翻译的提示驱动通用模型
 
 主要讲的是在以 cycle-gan 里面作为基底的模型里面，创新的添加了两个模块，分别是
@@ -14,21 +14,14 @@ PD-UNIST：非配对H&E到IHC染料翻译的提示驱动通用模型
 
 ## Style Injection in Diffusion: A Training-free Approach for Adapting Large-scale Diffusion Models for Style Transfer（CVPR 2024）
 
-### 文章链接：
-![[Style Injection in Diffusion A Training-free Approach.pdf]]
-
-### 文章核心内容：
+文章链接：
+[[Style Injection in Diffusion A Training-free Approach.pdf]]
+文章核心内容：
 扩散中的风格注入：一种适应大规模扩散模型的无需训练的风格转移方法
-
 这篇里面其实主要讲的就是 qkv 的注入，这边先暂且不提，他的引用其实就是可以应用在前面那边 miccai 25 的那一篇，主要讲的就是如何使用 qkv 进行风格的注入，在不破坏原有的图像结构中，能将具体的风格注入进去
 
 ## SCSA: A Plug-and-Play Semantic Continuous-Sparse Attention for Arbitrary Semantic Style Transfer（cvpr 25）
 ### 文章链接
-
-![[SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf]]
-
-
-
-
+[[SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf]]
 
 ### 文章核心内容：
