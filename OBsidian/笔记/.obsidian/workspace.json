@@ -147,11 +147,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03_科研调研/todolist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "todolist 的出链列表"
             }
           },
           {
@@ -160,16 +161,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "03_科研调研/todolist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "todolist 的大纲"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,15 +195,15 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "03_科研调研/task.md",
+    "03_科研调研/todolist.md",
     "03_科研调研/文献调研.md",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
-    "03_科研调研/todolist.md",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
     "05_个人生活/心情~.md",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
     "03_科研调研/paper/PD-UniST Prompt-Driven Universal Model for.pdf",
-    "03_科研调研/task.md",
     "02_深度学习/10.注意力机制.md",
     "100_percent_restore.py",
     "final_restore.py",
