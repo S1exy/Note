@@ -11,14 +11,12 @@
             "id": "389f486de2d99954",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_科研调研/文献调研.md",
-                "mode": "source",
-                "source": false
+                "file": "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf"
               },
-              "icon": "lucide-file",
-              "title": "文献调研"
+              "icon": "lucide-file-text",
+              "title": "CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -193,8 +192,8 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
-    "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/文献调研.md",
+    "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/todolist.md",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
     "05_个人生活/心情~.md",
