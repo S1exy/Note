@@ -23,14 +23,12 @@
             "id": "f1222c91c06da9a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "03_科研调研/文献调研.md",
-                "mode": "source",
-                "source": false
+                "file": "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf"
               },
-              "icon": "lucide-file",
-              "title": "文献调研"
+              "icon": "lucide-file-text",
+              "title": "SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary"
             }
           }
         ],
@@ -160,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_科研调研/文献调研.md",
+                "file": "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "文献调研 的出链列表"
+              "title": "SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary 的出链列表"
             }
           },
           {
@@ -174,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_科研调研/文献调研.md",
+                "file": "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "文献调研 的大纲"
+              "title": "SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary 的大纲"
             }
           }
         ],
@@ -208,9 +206,9 @@
   },
   "active": "f1222c91c06da9a9",
   "lastOpenFiles": [
+    "03_科研调研/文献调研.md",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
-    "03_科研调研/文献调研.md",
     "03_科研调研/todolist.md",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
     "05_个人生活/心情~.md",
