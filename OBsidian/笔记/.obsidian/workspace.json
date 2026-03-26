@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_科研调研/审查报告及大致方案.md",
+                "file": "03_科研调研/todolist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "审查报告及大致方案"
+              "title": "todolist"
             }
           }
         ]
@@ -147,12 +147,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_科研调研/审查报告及大致方案.md",
+                "file": "03_科研调研/todolist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "审查报告及大致方案 的出链列表"
+              "title": "todolist 的出链列表"
             }
           },
           {
@@ -161,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_科研调研/审查报告及大致方案.md",
+                "file": "03_科研调研/todolist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "审查报告及大致方案 的大纲"
+              "title": "todolist 的大纲"
             }
           }
         ],
@@ -194,10 +194,10 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "03_科研调研/文献调研.md",
+    "03_科研调研/审查报告及大致方案.md",
     "03_科研调研/todolist.md",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
-    "03_科研调研/审查报告及大致方案.md",
-    "03_科研调研/文献调研.md",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
     "03_科研调研/paper/Style Injection in Diffusion A Training-free Approach.pdf",
