@@ -11,6 +11,20 @@
 	- [ ] FreCaS: Efficient Higher-Resolution Image Generation via Frequency-aware Cascaded Sampling（iclr 2026）
 	- [ ] StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements（cvpr 2025）
 	- [ ] MagicStain: High-Fidelity Pathology Image Virtual Staining via Guided Single-Step Diffusion（iclr 2026）
+	- [ ] PST-diff
+	- [ ] 
+
+
+
+
+
+
+
+
+
+
+
+
 
 学长给的一些建议：
 1. 前置模型的问题，还有替换主干模型
