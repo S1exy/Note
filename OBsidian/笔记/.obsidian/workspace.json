@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_科研调研/文献调研.md",
+                "file": "03_科研调研/虚拟染色相关阅读报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文献调研"
+              "title": "虚拟染色相关阅读报告"
             }
           }
         ],
@@ -212,7 +212,7 @@
   "lastOpenFiles": [
     "03_科研调研/审查报告及大致方案.md",
     "03_科研调研/todolist.md",
-    "03_科研调研/文献调研.md",
+    "03_科研调研/虚拟染色相关阅读报告.md",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
     "03_科研调研/paper/Unpaired Multi-Domain Histopathology Virtual Staining using Dual Path.pdf",
