@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "未命名/未命名.md",
                 "mode": "source",
                 "source": false
               },
@@ -224,8 +224,9 @@
   },
   "active": "33d32edeb6d4853e",
   "lastOpenFiles": [
-    "03_科研调研/todolist.md",
     "未命名.md",
+    "未命名/未命名.md",
+    "03_科研调研/todolist.md",
     "未命名",
     "03_科研调研/虚拟染色相关阅读报告.md",
     "03_科研调研/审查报告及大致方案.md",
@@ -269,7 +270,6 @@
     "03_科研调研/image 3.png",
     "03_科研调研/image 2.png",
     "03_科研调研/线性回归神经网络 245f0d9df6f18075a424cb5572014c1c.md",
-    "03_科研调研/机器学习-Kaggle.md",
     "未命名.canvas"
   ]
 }
