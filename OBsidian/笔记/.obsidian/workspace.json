@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -209,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33d32edeb6d4853e",
+  "active": "85e2c1142d2531e4",
   "lastOpenFiles": [
     "04_项目竞赛/学习报告/学习汇报.md",
     "03_科研调研/虚拟染色相关阅读报告.md",
