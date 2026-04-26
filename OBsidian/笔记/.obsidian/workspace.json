@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "《失能老人服务补贴如何精准投放？——基于福州市居家养老服务供需适配与空间优化的研究》.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "《失能老人服务补贴如何精准投放？——基于福州市居家养老服务供需适配与空间优化的研究》"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "78109f30b7d0acc4",
@@ -208,15 +209,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85e2c1142d2531e4",
+  "active": "33d32edeb6d4853e",
   "lastOpenFiles": [
+    "未命名.md",
+    "《失能老人服务补贴如何精准投放？——基于福州市居家养老服务供需适配与空间优化的研究》.md",
     "04_项目竞赛/学习报告/学习汇报.md",
     "03_科研调研/虚拟染色相关阅读报告.md",
     "03_科研调研/审查报告及大致方案.md",
     "03_科研调研/论文核心.md",
     "05_个人生活/心情~.md",
     "未命名/计网作业报告.md",
-    "未命名.md",
     "未命名",
     "03_科研调研/paper/SCSA APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary.pdf",
     "03_科研调研/paper/CoCoDiff Correspondence-Consistent Diffusion Model for Fine-grained Style Transfer.pdf",
@@ -249,7 +251,6 @@
     "03_科研调研/asc培养计划.md",
     "03_科研调研/未命名.base",
     "03_科研调研/2.md",
-    "03_科研调研/().md",
     "03_科研调研/image.png",
     "03_科研调研/image 6.png",
     "03_科研调研/image 5.png",
