@@ -25,12 +25,14 @@
             "id": "686206d3949b4487",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.4"
+                "file": "未命名/Introduction_Method_中文_CVPR修订.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.14.4"
+              "icon": "lucide-file",
+              "title": "Introduction_Method_中文_CVPR修订"
             }
           }
         ],
@@ -213,9 +215,11 @@
   },
   "active": "686206d3949b4487",
   "lastOpenFiles": [
+    "Introduction_Method_中文.md",
+    "Introduction_Method_中文_CVPR修订.md",
+    "未命名/Introduction_Method_中文_CVPR修订.md",
     "Pasted image 20261021205827.png",
     "Pasted image 20260527201118.png",
-    "Introduction_Method_中文.md",
     "02_深度学习/6.卷积神经网络.md",
     "《失能老人服务补贴如何精准投放？——基于福州市居家养老服务供需适配与空间优化的研究》.md",
     "未命名.md",
@@ -227,7 +231,6 @@
     "Pasted image 20260527201200.png",
     "Pasted image 20260527201156.png",
     "Pasted image 20260527201152.png",
-    "Pasted image 20260527201148.png",
     "代际共生视角下社区服务消费市场的供需错配与服务补位研究.md",
     "统计建模.md",
     "04_项目竞赛/学习报告/学习汇报.md",
@@ -257,7 +260,6 @@
     "03_科研调研/思路1.md",
     "03_科研调研/学习汇报.md",
     "03_科研调研/18.51蔡明润.md",
-    "03_科研调研/14.42 - 王智洋.md",
     "03_科研调研/未命名.base",
     "未命名.canvas"
   ]
