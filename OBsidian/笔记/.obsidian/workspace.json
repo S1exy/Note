@@ -11,12 +11,14 @@
             "id": "389f486de2d99954",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260527201118.png"
+                "file": "Introduction_Method_中文.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260527201118"
+              "icon": "lucide-file",
+              "title": "Introduction_Method_中文"
             }
           }
         ]
@@ -69,7 +71,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -195,6 +200,9 @@
   },
   "active": "389f486de2d99954",
   "lastOpenFiles": [
+    "Pasted image 20261021205827.png",
+    "Pasted image 20260527201118.png",
+    "Introduction_Method_中文.md",
     "02_深度学习/6.卷积神经网络.md",
     "《失能老人服务补贴如何精准投放？——基于福州市居家养老服务供需适配与空间优化的研究》.md",
     "未命名.md",
@@ -207,7 +215,6 @@
     "Pasted image 20260527201156.png",
     "Pasted image 20260527201152.png",
     "Pasted image 20260527201148.png",
-    "Pasted image 20260527201145.png",
     "代际共生视角下社区服务消费市场的供需错配与服务补位研究.md",
     "统计建模.md",
     "04_项目竞赛/学习报告/学习汇报.md",
@@ -238,8 +245,6 @@
     "03_科研调研/学习汇报.md",
     "03_科研调研/18.51蔡明润.md",
     "03_科研调研/14.42 - 王智洋.md",
-    "03_科研调研/14.22-蔡明润.md",
-    "03_科研调研/服创 a18.md",
     "03_科研调研/未命名.base",
     "未命名.canvas"
   ]
